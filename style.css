@@ -1,0 +1,450 @@
+@import url(css/flaticon.css);
+@import url(css/font-awesome.min.css);
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+
+body {
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.80857;
+}
+
+body.demos .section {
+    background: url(images/bg.png) repeat top center #f2f3f5;
+}
+
+/* front page image height */
+html, body{
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+/*------------------------------------------------------------------
+    WP CORE
+-------------------------------------------------------------------*/
+
+.alignleft {
+    float: left;
+    margin: 10px 20px 20px 0;
+}
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+
+.top-navbar .bg-light{
+	background: #4c5a7d !important;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item{
+	position: relative;
+	display: inline-block;
+	padding: 15px 0px;
+	margin: 0px 20px;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link{
+	padding: 6px 0px;
+	position: relative;
+	display: block;
+	line-height: 30px;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
+	color: #eea412;
+}
+
+.top-navbar .navbar-light .navbar-nav li .dropdown-menu a:hover{
+	background: #eea412;
+	color: #ffffff;
+}
+
+.box-slider{
+	height: 100%;
+}
+
+.box-slider .carousel-control-prev{
+	border-radius: 2px;
+	background: #eea412;
+	position: absolute;
+	left: 0px;
+	font-size: 38px;
+	top: 40%;
+	width: 60px;
+	height: 60px;
+	line-height: 20px;
+	opacity: 1;
+}
+.box-slider .carousel-control-next{
+	border-radius: 2px;
+	background: #eea412;
+	position: absolute;
+	right: 0px;
+	font-size: 38px;
+	top: 40%;
+	width: 60px;
+	height: 60px;
+	line-height: 20px;
+	opacity: 1;
+}
+
+.box-slider .carousel-inner{
+	height: 100%;
+}
+.box-slider .carousel-item{
+	height: 100%;
+	width: 100%;
+}
+
+/*------------------------------------------------------------------
+    SECTIONS
+-------------------------------------------------------------------*/
+
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+.orange{
+	border-color: #eea412;
+}
+
+.first-section {
+    position: relative;
+    overflow: hidden;
+    height: 100%;	
+	vertical-align: middle;
+}
+
+.first-section::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	top: 0px;
+	left: 0px;
+    display: block;
+    background: rgba(0,0,0,0.5);
+}
+
+.first-section h2 {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 300;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+}
+
+.first-section h2 strong{
+	color: #eea412;
+}
+
+.first-section .lead {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 0 0 40px;
+    margin: 0;
+    line-height: inherit;
+    color: #ffffff;
+}
+
+.section-title h3 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+.box-slider .first-section{
+	display: table;
+	position: relative;
+	width: 100%;
+}
+.dtab{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner-hmv{
+	padding: 15px;
+	box-shadow: 0 0px 10px rgba(0,0,0,.1);
+	position: relative;
+	overflow: hidden;
+}
+.icon-box-hmv{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border: 3px solid #4babb1;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.icon-box-hmv i{
+	font-size: 60px;
+	color: #eea412;
+}
+.inner-hmv h3{
+	font-size: 28px;
+	color: #212121;
+    font-weight: 500;
+	margin-bottom: 20px;
+	padding: 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/*------------------------------------------------------------------
+    MESSAGE BOXES
+-------------------------------------------------------------------*/
+
+.message-box h4 {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: #eea412;
+}
+
+.message-box h2 {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.post-media img {
+    width: 100%;
+}
+
+.contact_form {
+    border: none;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    background-color: #333333;
+    padding: 40px 30px;
+	margin-right: -15px;
+}
+
+.contact_form .form-control {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    color: #bcbcbc;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 10px 25px;
+    height: 55px;
+    resize: none;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+.contact_form textarea {
+    color: #bcbcbc;
+    padding: 20px 25px !important;
+    height: 160px !important;
+}
+
+/*------------------------------------------------------------------
+    FOOTER
+-------------------------------------------------------------------*/
+
+.footer {
+    padding: 90px 0 80px !important;
+    color: #cccccc;
+	background:#4c5a7d url('images/world-map.png') no-repeat center; 
+}
+
+.footer .widget-title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .widget-title h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #cccccc;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+	padding: 5px 0px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.copyrights {
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: 0 10px;
+    color: #666;
+    padding: 5px 0px;
+}
+
+.footer-links-soi{
+	margin: 0px;
+	padding: 0px;
+}
+.footer-links-soi li{
+	display: inline-block;
+}
+.footer-links-soi li a{
+	background: #ffffff;
+	color: #333333;
+	width: 32px;
+	height: 32px;
+	display: block;
+	font-size: 22px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 2px;
+}
+
+.footer-center{
+	text-align: center;
+}
+
+/**-------------- inner Page css ---------------**/
+
+.all-title-box{
+	background: url(images/banner.jpg)no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+
+.all-title-box h1{
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding-top: 11%;
+	font-size: 48px;
+	line-height: 0px;
+}
+
+span.m_1 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5em;
+	display: block;
+}
+
+.our-team .team-img img{
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-content{
+    padding: 20px 0;
+    background: #f5f7f8;
+    color: #54478a;
+}
+
+.image-blog img{
+	padding: 0 !important;
+	width: 100%;
+	margin: 0 !important;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-o-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+}
